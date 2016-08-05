@@ -20,7 +20,7 @@ public class Alipay {
     public static final int ERROR_PAY = 2;  //支付失败
     public static final int ERROR_NETWORK = 3;  //网络连接错误
 
-    public interface AlipayResultCallBack {
+    public interface AlipayResultCallBack{
         void onSuccess(); //支付成功
 
         void onDealing();    //正在处理中 小概率事件 此时以验证服务端异步通知结果为准
