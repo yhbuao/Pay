@@ -27,7 +27,7 @@ public class Alipay {
 
         void onError(int error_code);   //支付失败
 
-        void onCancel();    //支付取消
+        void onCancel();  //支付取消
     }
 
     public Alipay(Context context, String params, AlipayResultCallBack callback) {
@@ -36,7 +36,7 @@ public class Alipay {
         mPayTask = new PayTask((Activity) context);
     }
 
-    //支付
+    //做支付
     public void doPay() {
         final Handler handler = new Handler();
         new Thread(new Runnable() {
