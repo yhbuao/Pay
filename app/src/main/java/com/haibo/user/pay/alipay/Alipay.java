@@ -8,6 +8,7 @@ import android.text.TextUtils;
 import com.alipay.sdk.app.PayTask;
 
 /**
+ * yuhaibo
  * 支付宝支付
  * Created by tsy on 16/6/1.
  */
